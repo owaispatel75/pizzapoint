@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f6f8f6;
+}
+.logo {
+  width: 25%;
+  cursor: pointer;
+}
+
+.nav-links a {
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+}
+.order {
+  color: white;
+  background-color: #4fda4f;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+}
+.order:hover {
+  background-color: white;
+  color: #4fda4f;
+  border: 1px solid #4fda4f;
+  cursor: pointer;
+}
+
+/*banner*/
+.banner img {
+  width: 100%;
+  height: 600px;
+}
+
+#menu {
+  width: 100%;
+  background-color: red;
+}
+.special {
+  background-color: aqua;
+}
+.offers {
+  background-color: rgb(11, 63, 63);
+}
+.contact{
+  background-color: rgb(88, 182, 182);
+}
